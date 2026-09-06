@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidad — Favvy Clone</title>
+<style>
+  :root { --bg:#fff; --fg:#1a1a1a; --muted:#5a5a5a; --line:#e2e2e2; --accent:#0b6; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#141414; --fg:#e8e8e8; --muted:#a0a0a0; --line:#2e2e2e; --accent:#3d9; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:40px 22px 80px; }
+  h1 { font-size:1.9rem; line-height:1.2; margin:0 0 6px; }
+  h2 { font-size:1.15rem; margin:38px 0 10px; padding-top:18px; border-top:1px solid var(--line); }
+  .updated { color:var(--muted); font-size:.9rem; margin-bottom:28px; }
+  .lead { background:color-mix(in srgb, var(--accent) 10%, transparent); border-left:3px solid var(--accent); padding:14px 16px; border-radius:0 6px 6px 0; }
+  table { border-collapse:collapse; width:100%; margin:14px 0; font-size:.93rem; }
+  th,td { text-align:left; padding:9px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-weight:600; }
+  code { background:color-mix(in srgb, var(--fg) 8%, transparent); padding:1px 5px; border-radius:4px; font-size:.88em; }
+  a { color:var(--accent); }
+  footer { margin-top:50px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:.88rem; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Política de Privacidad</h1>
+<p class="updated">Favvy Clone · Última actualización: 6 de septiembre de 2026</p>
+
+<p class="lead"><strong>En resumen: tus fotos nunca salen de tu teléfono.</strong> Favvy Clone las lee y las borra directamente en el dispositivo. No las subimos a ningún servidor, no las copiamos y no las vemos. No hay cuentas de usuario, ni analítica, ni publicidad, ni rastreadores.</p>
+
+<h2>1. Quién es responsable</h2>
+<p>El responsable del tratamiento es el desarrollador de Favvy Clone (en adelante, «la aplicación» o «nosotros»).</p>
+<p>Contacto: <strong>favvyclone@gmail.com</strong></p>
+
+<h2>2. Acceso a tus fotos</h2>
+<p>La aplicación necesita permiso de lectura de imágenes para funcionar: su única razón de ser es mostrarte tus fotos para que decidas cuáles conservar y cuáles eliminar.</p>
+<table>
+  <tr><th>Qué hacemos</th><th>Qué NO hacemos</th></tr>
+  <tr>
+    <td>Leer las imágenes del almacenamiento del dispositivo para mostrarlas en pantalla.<br><br>Eliminarlas cuando tú lo confirmas, mediante el diálogo de borrado del propio sistema Android.</td>
+    <td>Subirlas a internet o a la nube.<br><br>Copiarlas, analizarlas o compartirlas con terceros.<br><br>Acceder a la ubicación GPS incrustada en las fotos: no solicitamos el permiso <code>ACCESS_MEDIA_LOCATION</code>.</td>
+  </tr>
+</table>
+<p>Puedes retirar el permiso en cualquier momento desde los ajustes de tu dispositivo. La aplicación dejará de funcionar, pero no perderás ninguna foto.</p>
+
+<h2>3. Datos que se guardan en tu dispositivo</h2>
+<p>Para funcionar, la aplicación almacena cierta información <strong>localmente y solo en tu teléfono</strong>:</p>
+<table>
+  <tr><th>Dato</th><th>Para qué</th></tr>
+  <tr><td>Identificadores de las fotos que ya has decidido</td><td>No volver a mostrarte la misma foto</td></tr>
+  <tr><td>Cola de fotos marcadas para borrar</td><td>Mantener la papelera entre sesiones</td></tr>
+  <tr><td>Número de deslizamientos del día y fecha</td><td>Aplicar el límite diario del plan gratuito</td></tr>
+  <tr><td>Preferencias de la aplicación</td><td>Recordar ajustes y si ya viste la introducción</td></tr>
+</table>
+<p>Nada de esto se transmite a ningún servidor. Si desinstalas la aplicación, se borra todo.</p>
+
+<h2>4. Compras y suscripciones</h2>
+<p>Si adquieres una suscripción o la compra única, el pago lo procesa <strong>Google Play</strong>. Nosotros no recibimos, vemos ni almacenamos los datos de tu tarjeta en ningún momento.</p>
+<p>Para gestionar el estado de tu suscripción usamos <strong>RevenueCat, Inc.</strong>, un proveedor especializado que actúa como encargado del tratamiento. RevenueCat recibe un identificador anónimo generado por la aplicación, junto con el historial de compras y datos técnicos del dispositivo necesarios para validar el recibo. <strong>Ese identificador no está vinculado a tu nombre, tu correo ni a tus fotos.</strong></p>
+<ul>
+  <li>Política de privacidad de RevenueCat: <a href="https://www.revenuecat.com/privacy/">revenuecat.com/privacy</a></li>
+  <li>Política de privacidad de Google: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+</ul>
+
+<h2>5. Lo que no hacemos</h2>
+<ul>
+  <li>No mostramos publicidad.</li>
+  <li>No usamos herramientas de analítica ni de seguimiento de comportamiento.</li>
+  <li>No creamos perfiles ni tomamos decisiones automatizadas sobre ti.</li>
+  <li>No vendemos ni cedemos datos a terceros.</li>
+  <li>No requerimos registro ni cuenta de usuario.</li>
+</ul>
+
+<h2>6. Conservación</h2>
+<p>Los datos locales permanecen en tu dispositivo mientras la aplicación esté instalada, y se eliminan al desinstalarla. Los datos de compra los conserva RevenueCat conforme a su propia política, ya que son necesarios para restaurar tus compras si cambias de teléfono.</p>
+
+<h2>7. Tus derechos</h2>
+<p>Conforme al Reglamento General de Protección de Datos (RGPD), tienes derecho a acceder, rectificar, suprimir, limitar y oponerte al tratamiento de tus datos, así como a la portabilidad.</p>
+<p>Dado que no almacenamos información personal identificable en servidores propios, la mayor parte de estos derechos se ejercen directamente en tu dispositivo: desinstalar la aplicación elimina todos sus datos locales. Para cualquier consulta relativa a datos de compra, escríbenos a la dirección del apartado 1 y te ayudaremos a tramitarlo. También puedes reclamar ante la Agencia Española de Protección de Datos (<a href="https://www.aepd.es">aepd.es</a>).</p>
+
+<h2>8. Menores</h2>
+<p>La aplicación no está dirigida a menores de 13 años y no recopila conscientemente datos de ellos.</p>
+
+<h2>9. Cambios</h2>
+<p>Si modificamos esta política, actualizaremos la fecha del encabezado y publicaremos la nueva versión en esta misma dirección.</p>
+
+<h2>10. Contacto</h2>
+<p>Para cualquier duda sobre privacidad: <strong>favvyclone@gmail.com</strong></p>
+
+<footer>Favvy Clone · <a href="terminos.html">Términos de Uso</a></footer>
+
+</main>
+</body>
+</html>
